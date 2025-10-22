@@ -1,6 +1,122 @@
-.header {
-    text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
+body {
+    background-color: #f4f7fa;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.header {
+    background-color: #5dac39;
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px black;
+}
+
+.header h1 {
+    font-size: 2em;
+    letter-spacing: 1px;
+}
+
+h2 {
+    color: #5dac39;
+    border-bottom: 2px solid #5dac39;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    font-size: 1.5em;
+}
+
 .description {
-    padding-right: 600px;
+    background: white;
+    border-left: 5px solid #5dac39;
+    padding: 15px 20px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px black;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+ul ul {
+    list-style-type: circle;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+.meetings {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px black;
+}
+
+.slides-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.stage {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px black;
+    text-align: center;
+    width: 85%;
+}
+
+.stage h3 {
+    color: #5dac39;
+    margin-bottom: 15px;
+}
+
+iframe {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.calendar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px black;
+    padding: 20px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.calendar-container iframe {
+    width: 100%;
+    height: 600px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: inset 0 0 5px black;
 }
